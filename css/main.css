@@ -1,0 +1,75 @@
+
+/* Rock and Roll font from Google APi - looks pretty similar to Roboto used by YouTube */
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+/* Background by Laura Sage on Codepen. */
+body{
+    font-family: 'RocknRoll One', sans-serif;
+    text-align: center;
+    margin: auto;
+    background: radial-gradient(1.5em 6.28571em at 1.95em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(1.5em 6.28571em at -0.45em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 1.5em 5.5em, radial-gradient(2.3em 4.57143em at 2.99em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(2.3em 4.57143em at -0.69em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 2.3em 4em, radial-gradient(3.5em 6.28571em at 4.55em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(3.5em 6.28571em at -1.05em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 3.5em 5.5em, radial-gradient(#15ffa5, #00ced1);
+  background-color: mediumspringgreen;
+  background-size: 1.5em 11em, 1.5em 11em, 2.3em 8em, 2.3em 8em, 3.5em 11em, 3.5em 11em, 100% 100%;
+  background-repeat: repeat;
+
+
+}
+
+form{
+    background-color:whitesmoke;
+    max-width: 450px;
+    margin: 40px auto;
+    box-shadow: 2px, 5px, 10px, rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.form-control{
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.form-control label{
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+.form-control input, .form-control select, .form-control textarea{
+    border-radius: 6px;
+    padding: 10px;
+     display: block;
+     width: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    font-size: 15px;
+    font-family: inherit;
+}
+
+.form-control input[type="radio"], .form-control input[type="checkbox"] {
+    display: inline-block;
+    width:auto;
+}
+
+h1 + p {
+    margin-top: 0;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+button{
+    background-color: orangered;
+    border: 1px solid orangered;
+    border-radius: 3px;
+    display: block;
+    font-family: inherit;
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+    
+}

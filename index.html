@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>YouTube Survey Form</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+    </head>
+  
+    <body>
+        <h1 id="title"> YouTube Survey Form</h1>
+        <p id="description">Thanks for sharing your love about YouTube</p>
+        <form id="survey-form">
+            <div class="form-control">
+                <label for="Name" id="name-label"><b>Name</b></label>
+                <input type="text" id="name" placeholder="Enter your Name" required>
+            </div>
+            
+            <div class="form-control">
+                <label for="Email" id="email-label"><b>Email</b></label>
+                <input type="email" id="email" placeholder="Enter your Email" required>
+            </div>
+
+            <div class="form-control">
+                <label for="number" id="number-label"><b>Age</b></label>
+                <input type="number" id="number" placeholder="Enter your Age"required min="1" max="99">
+            </div>
+
+            <div class="form-control">
+                <label for="genre" id="label-genre"><b>What's your favorite content genre on YouTube?</b></label>
+                <select name="genre" id="dropdown">
+                <option disabled selected value>Select</option>    
+                <option value="tech">Tech</option>
+                <option value="gaming">Gaming</option>
+                <option value="beauty">Beauty</option>
+                <option value="hnf">Health & Fitness</option>
+                <option value="vlgs">Vloggs</option>
+                <option value="others">Others</option>
+
+                </select>
+            
+
+            </div>
+            
+            <div class="form-control">
+                <p>
+                  <b>Would you recommend YouTube to friends and family?</b></p>
+                </p>
+                
+                <label>
+                    <input
+                      name="user-recommend"
+                      value="definitely"
+                      type="radio"
+                      class="input-radio"
+                      checked
+                    /> Definitely</label>
+                  <label>
+                    <input
+                      name="user-recommend"
+                      value="maybe"
+                      type="radio"
+                      class="input-radio"
+                    /> Maybe</label>
+            
+                  <label
+                    ><input
+                      name="user-recommend"
+                      value="not-sure"
+                      type="radio"
+                      class="input-radio"
+                    /> Not sure</label>
+
+            </div>
+            
+            <div class="form-control">
+                <p><b>How can we make experience better? (Select Multiple)</b></p>
+                    <label>
+                        <input 
+                             name="prefer"
+                             type="checkbox"
+                             class="input-checkbox"
+                             value="Better Subscription Page">
+                                Better Subscription Page
+                    </label>
+
+                    <label>
+                        <input 
+                             name="prefer"
+                             type="checkbox"
+                             class="input-checkbox"
+                             value="Improved Notification">
+                             Improved Notification
+                    </label>
+
+                    <label>
+                        <input 
+                             name="prefer"
+                             type="checkbox"
+                             class="input-checkbox"
+                             value="More Skipable Ads">
+                                More Skipable Ads
+                    </label>
+
+                    <label>
+                        <input 
+                             name="prefer"
+                             type="checkbox"
+                             class="input-checkbox"
+                             value="Recommended Page">
+                                Recommended Page
+                    </label>
+
+                    <label>
+                        <input 
+                             name="prefer"
+                             type="checkbox"
+                             class="input-checkbox"
+                             value="Trending Page">
+                                Trending Page
+                    </label>
+
+                    <div class="form-group">
+                        <p><b> Feedback or Suggestions</b></p>
+                        <textarea
+                          id="comments"
+                          class="input-textarea"
+                          name="comment"
+                          placeholder="Enter your valuable Feedback here..."
+                        ></textarea>
+                      </div>
+                  
+                      <div class="form-group">
+                        <button type="submit" id="submit" class="submit-button">
+                          Submit
+                        </button>
+                      </div>
+        </form>
+    </body>
+
+
+</html>
